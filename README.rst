@@ -4,6 +4,7 @@ remchecker
 
 What's this?
 ------------
+手元で動くりむったーもどきな何か．
 Twitterのfollowersのリムーブを確認します．
 
 
