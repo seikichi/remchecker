@@ -4,8 +4,8 @@ remchecker
 
 What's this?
 ------------
-手元で動くりむったーもどきな何か．
-Twitterのfollowersのリムーブを確認します．
+| 手元で動くりむったーもどきな何か
+| Twitterのfollowersのリムーブを確認します．
 
 
 Requirements
@@ -17,11 +17,11 @@ Requirements
 How to Install?
 ---------------
 
-.. easy_install
-.. ++++++++++++
-.. ::
+easy_install
+++++++++++++
+::
 
-..   $ easy_install remchecker
+  $ easy_install remchecker
 
 
 setuptools
@@ -39,7 +39,8 @@ run
 
 | 設定ファイルは~/.remcheckerに保存します．
 | リムーブを発見した場合は自分にDMを送ります．
-| 適当にcronで回して下さい．
+| 初回起動時にOAuthでの認証を行ないます．
+| それ以降はは適当にcronで回して下さい．
 |
 |
 | Author: seikichi
