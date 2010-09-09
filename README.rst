@@ -17,11 +17,11 @@ Requirements
 How to Install?
 ---------------
 
-easy_install
-++++++++++++
-::
+.. easy_install
+.. ++++++++++++
+.. ::
 
-  $ easy_install remchecker
+..   $ easy_install remchecker
 
 
 setuptools
