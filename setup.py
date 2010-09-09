@@ -9,8 +9,11 @@ setup(name='remchecker',
       long_description="""\
 """,
       classifiers=[
+          'Development Status :: 3 - Alpha',
+          'Environment :: Console',
           'Intended Audience :: End Users/Desktop',
           'License :: OSI Approved :: MIT License',
+          'Natural Language :: Japanese',
           'Programming Language :: Python',
           'Topic :: Communications'
           ],
