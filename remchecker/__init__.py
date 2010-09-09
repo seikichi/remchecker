@@ -51,7 +51,7 @@ def update(filename):
             users.append('@'+s)
 
     if diff:
-        sys.stdout.write("removed by "+', '.join('@'+u for u in diff)+'\n')
+        sys.stderr.write("removed by "+', '.join('@'+u for u in diff)+'\n')
 
     myname = api.me().screen_name
     for s in users:
