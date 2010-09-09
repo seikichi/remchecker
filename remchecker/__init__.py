@@ -55,7 +55,7 @@ def update(filename):
 
     myname = api.me().screen_name
     for s in users:
-        api.send_direct_message(screen_name=myname, text=s)
+        api.send_direct_message(screen_name=myname, text=s+MESSAGE.decode('utf8'))
 
     data['followers'] = list(current)
     with open(filename, 'w') as f:
